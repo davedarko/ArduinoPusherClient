@@ -32,11 +32,6 @@ static HashMap<String, EventDelegate, HASH_SIZE> _bindMap = HashMap<String, Even
 void connectionEstablished(const String& eventName, const String& eventData);
 #endif
 
-const char pusherAppId[] PROGMEM = "995623"; //INSERT YOU API ID HERE
-const char pusherKey[] PROGMEM = "a5fb169de97e5aaaf287"; //INSERT YOU API KEY HERE
-const char pusherSecret[] PROGMEM = "19e02aee8fea99b06000"; //INSERT YOU API SECRET HERE
-
-
 const char pusherAppId[] PROGMEM = ""; //INSERT YOU API ID HERE
 const char pusherKey[] PROGMEM = ""; //INSERT YOU API KEY HERE
 const char pusherSecret[] PROGMEM = ""; //INSERT YOU API SECRET HERE
